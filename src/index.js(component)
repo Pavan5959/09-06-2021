@@ -1,0 +1,14 @@
+import { keyValue, test } from './components/variables';
+
+console.log(keyValue);
+test();
+console.log( keyValue);
+
+/*other way*/
+import { keyValue } from './components/variables';
+
+import {test} from './components/variables';
+
+console.log(keyValue);
+test();
+console.log(keyValue);
